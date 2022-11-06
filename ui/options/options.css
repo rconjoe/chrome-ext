@@ -1,0 +1,11 @@
+.container {
+  background-color: rgb(216, 191, 216);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#new-endpoint {
+  display: flex;
+  column-gap: 10px;
+}

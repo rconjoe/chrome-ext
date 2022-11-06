@@ -4,9 +4,26 @@
     <title></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="styles.css" rel="stylesheet" />
+    <link href="options.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>OPTIONSSSS</h1>
+    <div class="container">
+      <h1 id="title">Configuration</h1>
+
+      <div>
+        <h3>Endpoints:</h3>
+        <ul id="endpoints">
+          <li>
+            <div id="new-endpoint">
+              <input id="nameinput" placeholder="discord" />
+              <input id="urlinput" placeholder="https://..." />
+              <button id="savebtn">Save</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="status"></div>
+    </div>
+    <script src="options.js"></script>
   </body>
 </html>
